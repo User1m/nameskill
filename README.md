@@ -18,7 +18,7 @@ This repo is best used in association with the [screencast series]().
 
 3. run `typings install`
 
-4. Don't forget to compile the typescript to javascript
+4. Don't forget to compile the typescript to javascript if you change the .ts files
 
 	* You can run `npm run ci-test` to compile your ts and test
 
