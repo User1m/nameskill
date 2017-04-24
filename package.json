@@ -1,0 +1,30 @@
+{
+  "name": "nameskill",
+  "version": "1.0.0",
+  "description": "A cross platform skill that repeats your name",
+  "main": "index.js",
+  "author": "Claudius Mbemba (http://claudiusmbemba.com/)",
+  "license": "MIT",
+  "alexa": {
+    "applicationId": "amzn1.echo-sdk-ams.app.mbembac"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "chai": "^3.4.1",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "mocha": "^2.5.3",
+    "mocha-typescript": "^1.0.23",
+    "supertest": "^2.0.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "debug": "mocha --debug-brk test/",
+    "pack": "webpack",
+    "watch": "tsc -w index.ts test/*.ts",
+    "ci-test": "mocha-typescript-watch -p tsconfig.json test/"
+  }
+}
