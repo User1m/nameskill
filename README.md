@@ -16,7 +16,14 @@ This repo is best used in association with the [screencast series]().
  
 2. run `npm install --development`
 
-3. [Follow the rest of the video]()
+3. run `typings install`
+
+4. Don't forget to compile the typescript to javascript
+
+	* You can run `npm run ci-test` to compile your ts and test
+
+5. [Follow the rest of the video]()
+
 
 
 ## Running the tests
@@ -115,6 +122,9 @@ Test defined intent:
 });
 ```
 
+## Packing for Deployment
+run `npm run pack` to use webpack to bundle your dependencies and update your code to use the bundle instead of node modules.
+
 ## Deployment
 Deploy on either:
 
@@ -124,7 +134,7 @@ Deploy on either:
 
 ## Built With
 
-* [vui-app](http://github.com/user1m/vui-app) - The sdk used
+* [vui-app](http://github.com/user1m/vui-app) - The SDK used
 
 ## Authors
 
