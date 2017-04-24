@@ -130,7 +130,6 @@ Deploy on either:
 
 * **Claudius Mbemba** - *Initial work* - [User1m](https://github.com/user1m)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
