@@ -135,6 +135,7 @@ Deploy on either:
 ## Built With
 
 * [vui-app](http://github.com/user1m/vui-app) - The SDK used
+* [azure-functions-pack](https://github.com/Azure/azure-functions-pack) (funcpack) - tool for packing functions for deploying on azure
 
 ## Authors
 
